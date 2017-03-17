@@ -45,3 +45,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.suo
+PolyScino/.vs/PolyScino/v15/Browse.VC.db
+*.opendb
+PolyScino/.vs/PolyScino/v15/ipch/AutoPCH/POLYSCINO-696c0ffb/CMDBOUCLEFOR-81a3eacf/CMDBOUCLEFOR.ipch
+*.sln
+PolyScino/PolyScino/PolyScino.vcxproj
+*.filters
+*.ipch
