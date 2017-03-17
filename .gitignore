@@ -53,3 +53,10 @@ PolyScino/.vs/PolyScino/v15/ipch/AutoPCH/POLYSCINO-696c0ffb/CMDBOUCLEFOR-81a3eac
 PolyScino/PolyScino/PolyScino.vcxproj
 *.filters
 *.ipch
+*.exe
+PolyScino/Debug/PolyScino.ilk
+*.pdb
+*.obj
+*.tlog
+PolyScino/PolyScino/Debug/vc141.idb
+*.log
