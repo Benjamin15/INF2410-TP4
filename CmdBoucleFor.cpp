@@ -14,9 +14,12 @@
 */
 void CmdBoucleFor::executer(Robot & robot)
 {
-	for (int i = 0; i < m_nbRepetitions; i++)
+	for (int k = 0; k < m_nbRepetitions; k++)
 	{
-		m_commandes[i]->executer(robot);
+		for (int i = 0; i < m_commandes.size(); i++)
+		{
+			m_commandes[i]->executer(robot);
+		}
 	}
 }
 
