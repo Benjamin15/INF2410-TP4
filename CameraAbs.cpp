@@ -15,9 +15,13 @@ ResultatTest CameraAbs::diagnostiquer(){
 	ResultatTest res = ResultatTest::echec;
 
 	// Diagnostiquer la memoire
+	res = opDiagnostiquerMemoire();
 	// Diagnostiquer la batterie
-	// Diagnostiquer le flash
-	
+	if (res == ResultatTest::succes)
+		res = opDiagnostiquerBatterie();
+	// Diagnostiquer le flash.
+	if (res == ResultatTest::succes)
+		res = opDiagnostiquerFlash();
 	return res;
 }
 

@@ -151,8 +151,8 @@ void Robot::changerOrientationAbsolue(double longitude, double latitude)
 
 void Robot::changerOrientationRelative(double incLongitude, double incLatitude)
 {
-	m_latitude = incLatitude;
-	m_longitude = incLongitude;
+	m_latitude *= incLatitude;
+	m_longitude *= incLongitude;
 }
 
 /**
